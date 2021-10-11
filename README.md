@@ -2,7 +2,7 @@
 
 ---
 
-Jaro 2021, Praha (30. března 2021)
+Podzim 2021, Praha (12. října 2021)
 
 ---
 
