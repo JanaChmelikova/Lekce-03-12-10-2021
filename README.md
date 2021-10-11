@@ -1,4 +1,4 @@
-# Tvořím web A–Z: lekce 03
+# HTML a CSS 1: lekce 03
 
 ---
 
@@ -65,3 +65,6 @@ Jaro 2021, Praha (30. března 2021)
 # Position: sticky
 - Kombinace relative a fixed
 - Prvek se posouvá tak, aby byl vidět uvnitř svého rodiče
+
+# Zadání prvního povinného domácího úkolu
+- https://classroom.github.com/a/0OmaTeWN
