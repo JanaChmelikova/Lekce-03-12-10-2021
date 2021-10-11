@@ -18,7 +18,6 @@ Jaro 2021, Praha (30. března 2021)
 # Vlastnost position
 
 - Říkáme jak má být prvek na stránce umístěný
-- Github repo s dnešním cvičením [https://github.com/tvorimweb-2021-praha-jaro/lekce_03.git](https://github.com/tvorimweb-2021-praha-jaro/lekce_03.git)
 
 ---
 
@@ -31,9 +30,9 @@ Jaro 2021, Praha (30. března 2021)
 
 # Position: relative
 
-- Prvek posunu relativně vůči jeho výchozí pozici, zabírá své původní místo
+- Prvek posune relativně vůči jeho výchozí pozici, prvek zůstává v přirozeném toku stránky na své půvpdní pozici
+- Vůči tomuto prvku mohu pozicovat další s vlastností position: absolute
 - Vlastnosti <kbd>top</kbd>, <kbd>left</kbd>, <kbd>right</kbd>, <kbd>bottom</kbd> určují posun vůči výchozí pozici
-- Vybírám si hranu, v jejímž směru posouvám
 - Záporná hodnota posouvá v opačném směru
 
 ---
@@ -43,6 +42,7 @@ Jaro 2021, Praha (30. března 2021)
 - Prvek zcela vyjme z toku dokumentu a lze jej libovolně umístit
 - Pozicuje se vzhledem ke svému nejbližšímu rodiči který nemá position: static
 - Pokud takový rodič neexistuje, pozicuje se vůči stránce
+- Zároveň z něj může být “kotva” pro další prvek s pozicí absolute
 
 ---
 
@@ -56,19 +56,12 @@ Jaro 2021, Praha (30. března 2021)
 
 # Position: fixed
 - Zůstává na obrazovce i když posouvám obrazovku
-- Zabírá použitelný prostor na obrazovce
+- Stejně jako pozice absolute, i tato vyjímá prvek z přirozeného toku stránky
+- Zabírá použitý prostor na obrazovce
 - Pozor na mobily!!!
 
 ---
 
 # Position: sticky
-- Kombinace static a fixed
+- Kombinace relative a fixed
 - Prvek se posouvá tak, aby byl vidět uvnitř svého rodiče
-
----
-
-# První povinný úkol
-
-- Zadaný v classrooms
-- Ukážeme si co je třeba
-- [https://classroom.github.com/a/jn9ONBVe](https://classroom.github.com/a/jn9ONBVe)
